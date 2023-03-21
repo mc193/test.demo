@@ -1,1 +1,29 @@
-Hello Mario
+Hello Mário
+
+rm -Rf nomedapasta   -- Apagar pastas
+rm nomedoarquivo   -- Apagar arquivos
+touch nomedoarquivo.txt    -- Criar arquivos txt
+notepad nomedoarquivo.txt    -- Abrir arquivo no bloco de notas
+pwd -- Ver o diretório
+cd  -- mover para um diretório
+ls   -- Lista dos arquivos do repositório
+git push origin master   -- Update dos arquivos para determinado ramo 
+git remote add origin linkdogithub   -- Linka o GIT com o repositório criado no github
+git branch nomedobranch  -- Criar branch
+git branch   --  Ver os branches
+git checkout nomedobranch   -- Muda para um branch diferente criado anteriormente
+git config --list    --  Lista das informações principais
+git config --global user.name "nomedousuario"
+git config --global user.email "emaildousuario"
+mkdir nomedapasta  -- Criar nova pasta
+git init   -- Iniciar repositório na nova pasta
+git status    -- Fornece informações dos arquivos no diretório
+git add nomedoarquivo   -- Adicionar arquivo no repositório
+git add .   -- Atalho para adicionar arquivo no repositório
+git commit -m "nomequequiser"   -- Commit "tracking" do arquivo
+git log   -- Mais informações sobre o arquivo
+git merge master  -- Fazer o merge dos arquivos de determinado branch para o master
+git diff    -- Mostra o que foi adicionado nos arquivos que estão sendo acompanhados
+
+
+
